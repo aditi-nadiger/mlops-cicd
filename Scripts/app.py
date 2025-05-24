@@ -4,8 +4,8 @@ import pickle
 import os
 from dotenv import load_dotenv
 from helper_functions import log_info, log_error
-import shap  # SHAP Explainability
-from lime.lime_tabular import LimeTabularExplainer  # LIME Explainability
+#import shap  # SHAP Explainability
+#from lime.lime_tabular import LimeTabularExplainer  # LIME Explainability
 
 # Load environment variables
 load_dotenv()
